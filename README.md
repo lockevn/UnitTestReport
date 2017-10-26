@@ -16,5 +16,6 @@ UnitTestReport [input-file] [output-file]
 ```
 
 where
-`[input-file]` can be "C:\input\TestResult.xml"
-`[output-file]` can be omitted (and it uses the input filename as output filename), or "C:\output\your-report-name.html"
+
+ - `[input-file]` can be "C:\input\TestResult.xml"
+  - `[output-file]` can be omitted (and it uses the input filename as output filename), or "C:\output\your-report-name.html"
