@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--https://weblog.west-wind.com/posts/2017/Jun/22/MultiTargeting-and-Porting-a-NET-Library-to-NET-Core-20-->
+    <TargetFrameworks>netstandard2.0;net40</TargetFrameworks>
+    <Company>Gurucore</Company>
+    <Authors>Lockevn</Authors>
+    <Version>0.1.0</Version>
+    <Copyright>Copyright © Lockevn of (Gurucore) 2017</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="newtonsoft.json" Version="10.0.3" />    
+  </ItemGroup>
+
+</Project>
